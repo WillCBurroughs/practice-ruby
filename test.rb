@@ -59,3 +59,50 @@ puts testing_strip.include? "r"
 
 # Testing index (Values can be indexed)
 puts testing_strip.strip()[1]
+
+# Can print out range 
+puts testing_strip.strip[0,5]
+
+# finding start index
+puts testing_strip.index("H")
+
+
+
+
+# Math and Numbers 
+
+puts 5
+
+puts 5.835
+
+# Will typecast to float 
+puts 5 / 5.8
+
+# Can shortcase exponents 
+puts 2**3 
+
+# Can not print number and string without converting number to string 
+# Can call to get abs 
+
+number_neg = -20
+
+puts number_neg.abs()
+
+# Can round number 
+number_round = 20.3214
+puts number_round.round() 
+
+# Ceiling method 
+number_ceil = 20.121
+puts number_ceil.ceil()
+
+# Floor method 
+number_floor = 20.211
+puts number_floor.floor()
+
+
+testing_math = 30
+
+puts Math.sqrt(testing_math)
+puts Math.log(testing_math)
+puts Math.tan(testing_math)
