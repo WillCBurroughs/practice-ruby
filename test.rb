@@ -106,3 +106,21 @@ testing_math = 30
 puts Math.sqrt(testing_math)
 puts Math.log(testing_math)
 puts Math.tan(testing_math)
+# Any math with float will convert number to float 
+
+
+
+# Getting user_input 
+
+# Can call ruby then file name with extension to run from terminal 
+puts "Enter your name: "
+
+# Setting name for input (Use gets)
+name = gets.chomp() # Chomp ignores new line auto-generated 
+
+# Getting user age
+
+age = gets.chomp()
+
+puts ("Hello " + name + ", nice to meet you. You are " + age + " years old")
+
