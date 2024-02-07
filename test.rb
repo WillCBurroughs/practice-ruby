@@ -29,5 +29,33 @@ floating_point = 3.1
 
 boolean_val = true 
 nil_value = nil 
-undefined_value = undef
+# undefined_value = undef
 
+
+# Manipulating Strings 
+testing_quotes = "\""
+print testing_quotes
+
+testing_phrases = "Hello there"
+puts testing_phrases.upcase() 
+
+testing_strip = "   HEllo theRe   "
+
+puts testing_strip.strip() 
+
+# Non Mutating 
+puts testing_strip
+
+puts testing_strip.length()
+
+# Methods can be chained
+puts testing_strip.strip().length()
+
+# Used to search
+puts testing_strip.include? "H"
+
+# Case sensitive
+puts testing_strip.include? "r"
+
+# Testing index (Values can be indexed)
+puts testing_strip.strip()[1]
