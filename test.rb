@@ -124,3 +124,19 @@ age = gets.chomp()
 
 puts ("Hello " + name + ", nice to meet you. You are " + age + " years old")
 
+
+# building Calc
+
+puts "Enter a number "
+
+number_1 = gets.chomp() 
+
+puts "Enter another number"
+
+# Could also convert at this step
+number_2 = gets.chomp() 
+
+# Numbers are by default strings (call .to_f)
+puts (number_1.to_f + number_2.to_f)
+
+puts (number_1 + number_2)
